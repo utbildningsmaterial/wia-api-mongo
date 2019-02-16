@@ -10,7 +10,7 @@ module.exports.get = async (req, res) => {
     
     if(ticket.length == 1){
     
-        res.status(200).send('Ticket is valid.')
+        res.status(200).send(`Ticket is valid for event: ${ticket.event.name}.`);
     
     } else {
     

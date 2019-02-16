@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 // !!!!!!!!!
-const user = 'YOUR_USER_HERE';
-const password = 'YOUR_PASSWORD_HERE';
+const user = 'kaptenen';
+const password = 'titanic';
 
 mongoose.connect(`mongodb+srv://${user}:${password}@johanscluster-bixv4.mongodb.net/wia?retryWrites=true`, { useNewUrlParser: true })
 .then(()=> {
